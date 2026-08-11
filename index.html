@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital World — Smartphone &amp; Gadget Repair in Ranchi, Jharkhand</title>
+<meta name="description" content="Digital World repairs smartphones, tablets and gadgets in Ranchi with quality parts, transparent pricing and doorstep service. Book a repair in minutes or chat with us on WhatsApp.">
+<meta name="theme-color" content="#2455E8">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Digital World — Your Complete Gadget Solution">
+<meta property="og:description" content="Smartphone and gadget repair in Ranchi, Jharkhand. Chip-level repair, doorstep service, pre-owned phones and accessories.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!-- Leaflet: powers the draggable pin-drop map in the booking form.
+     Uses free OpenStreetMap tiles, so no API key is needed. -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+<!-- TODO: replace with a real favicon -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%232455E8%22/></svg>">
+
+<!-- Local business structured data helps local SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ElectronicsRepairShop",
+  "name": "Digital World",
+  "image": "",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Opposite Medanta Hospital, Irba",
+    "addressLocality": "Ranchi",
+    "addressRegion": "Jharkhand",
+    "addressCountry": "IN"
+  },
+  "openingHours": "Mo-Su 09:00-22:00",
+  "telephone": "+91-90060-60974"
+}
+</script>
+</head>
+<body>
+
+<!-- =====================================================================
+     HEADER / NAVIGATION
+===================================================================== -->
+<header class="site-header" id="siteHeader">
+  <div class="container nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+      </span>
+      Digital World
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#book" class="btn btn--primary btn--sm">Book Service</a>
+    </div>
+
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-inner">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#faq">FAQ</a>
+    <a href="#book" class="btn btn--primary btn--block">Book Service</a>
+  </div>
+</div>
+
+<main>
+
+<!-- =====================================================================
+     HERO
+===================================================================== -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="hero-label"><span class="dot"></span> FAST • RELIABLE • TRUSTED</span>
+      <h1 class="hero-title">Your Complete <em>Gadget Solution</em></h1>
+      <p class="hero-desc">We repair smartphones and other gadgets using quality parts and transparent pricing. Whether it's a cracked screen, battery issue, motherboard repair, or software problem, Digital World is here to help.</p>
+
+      <div class="hero-actions">
+        <a href="#book" class="btn btn--primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book Service
+        </a>
+        <button class="btn btn--whatsapp" data-whatsapp-cta>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.71.45 3.38 1.3 4.85L2 22l5.36-1.4a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.06c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.8-.11-.42-.13-.95-.3-1.64-.6-2.9-1.25-4.79-4.17-4.94-4.37-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.26-.28.57-.35.76-.35h.55c.18 0 .42-.07.65.5.24.58.82 2 .9 2.14.07.14.12.31.02.5-.1.2-.15.31-.29.48-.14.17-.3.37-.43.5-.14.14-.29.29-.13.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.17-.2.71-.83.9-1.11.19-.28.38-.23.63-.14.26.1 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.68-.17 1.36Z"/></svg>
+          Chat on WhatsApp
+        </button>
+      </div>
+
+      <div class="hero-badges">
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>
+          <span>Chip-Level Repair</span>
+        </div>
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v9a1 1 0 0 0 1 1h3v-6h6v6h3a1 1 0 0 0 1-1v-9"/></svg>
+          <span>Doorstep Service</span>
+        </div>
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v5h5"/><path d="M20 20v-5h-5"/><path d="M5.5 9A7 7 0 0 1 19 8.5M18.5 15A7 7 0 0 1 5 15.5"/></svg>
+          <span>Pre-Owned Smartphones</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signature hero visual: a phone silhouette with a diagnostic "scan" -->
+    <div class="hero-visual" aria-hidden="true">
+      <div class="device-stage">
+        <div class="device-ring"></div>
+        <div class="device-phone">
+          <div class="screen">
+            <svg width="46%" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"><rect x="6" y="2" width="12" height="20" rx="2.5"/><line x1="10" y1="19" x2="14" y2="19"/></svg>
+            <div class="scan-line"></div>
+          </div>
+        </div>
+        <div class="device-badge-float">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          <div>
+            <b>Diagnosis Complete</b>
+            <small>Transparent quote ready</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     SERVICES (overview cards)
+===================================================================== -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">What We Fix</span>
+      <h2 class="section-title">Repair services, done right</h2>
+      <p class="section-sub">Every repair starts with a clear diagnosis and a straightforward quote — no surprises at pickup.</p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3"/><line x1="9" y1="18" x2="15" y2="18"/></svg>
+        </div>
+        <h3>Display Repair</h3>
+        <p>Cracked glass, dead pixels, or touch issues fixed with quality replacement screens.</p>
+        <button class="service-more" data-scroll-to="detail-display">See details
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 7h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1"/><rect x="6" y="9" width="11" height="6" rx="1"/><line x1="22" y1="11" x2="22" y2="13"/></svg>
+        </div>
+        <h3>Battery Replacement</h3>
+        <p>Fast-draining or swollen battery? We swap in tested batteries that hold a full charge.</p>
+        <button class="service-more" data-scroll-to="detail-battery">See details
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <h3>Charging Repair</h3>
+        <p>Loose port, slow charging, or "not charging" faults diagnosed and resolved.</p>
+        <button class="service-more" data-scroll-to="detail-charging">See details
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>
+        </div>
+        <h3>Motherboard Repair</h3>
+        <p>Chip-level diagnosis and micro-soldering for liquid damage and short-circuit faults.</p>
+        <button class="service-more" data-scroll-to="detail-motherboard">See details
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <h3>Software Services</h3>
+        <p>Boot loops, update failures, virus cleanup, and OS reinstalls handled safely.</p>
+        <button class="service-more" data-scroll-to="detail-software">See details
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        </div>
+        <h3>And Many More</h3>
+        <p>Camera, speaker, mic, back-glass, water damage — if it's a gadget fault, ask us.</p>
+        <button class="service-more" data-whatsapp-cta>Ask on WhatsApp
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     SERVICE DETAILS
+===================================================================== -->
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">The Fine Print</span>
+      <h2 class="section-title">Service details, explained upfront</h2>
+      <p class="section-sub">Know what's included, how long it takes, and what's covered before you book.</p>
+    </div>
+
+
+
+    <!-- Display Repair -->
+    <div class="detail-card reveal" id="detail-display">
+      <div class="detail-head">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3"/><line x1="9" y1="18" x2="15" y2="18"/></svg></div>
+        <h3>Display Repair</h3>
+      </div>
+      <div class="detail-grid">
+        <div class="detail-block">
+          <b>What's Included</b>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Full diagnostic before replacement</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Screen, digitizer &amp; touch calibration</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Post-repair quality check</li>
+          </ul>
+        </div>
+        <div class="detail-block">
+          <b>Estimated Time</b>
+          <p>Most display replacements are completed in 45–90 minutes, depending on device model and part availability.</p>
+        </div>
+        <div class="detail-block">
+          <b>Important Notes</b>
+          <p>Original-quality and OEM-grade options are available; we'll explain the difference and pricing before starting.</p>
+        </div>
+      </div>
+      <div class="detail-foot">
+       
+      </div>
+    </div>
+
+    <!-- Battery Replacement -->
+    <div class="detail-card reveal" id="detail-battery">
+      <div class="detail-head">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 7h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1"/><rect x="6" y="9" width="11" height="6" rx="1"/><line x1="22" y1="11" x2="22" y2="13"/></svg></div>
+        <h3>Battery Replacement</h3>
+      </div>
+      <div class="detail-grid">
+        <div class="detail-block">
+          <b>What's Included</b>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Battery health check</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Safe removal of the old/swollen cell</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Charge-cycle test after fitting</li>
+          </ul>
+        </div>
+        <div class="detail-block">
+          <b>Estimated Time</b>
+          <p>Typically 30–60 minutes for most smartphones and smartwatches.</p>
+        </div>
+        <div class="detail-block">
+          <b>Important Notes</b>
+          <p>Swollen batteries are handled with care to avoid damage to the surrounding frame or display.</p>
+        </div>
+      </div>
+      <div class="detail-foot">
+       
+      </div>
+    </div>
+
+    <!-- Charging Repair -->
+    <div class="detail-card reveal" id="detail-charging">
+      <div class="detail-head">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+        <h3>Charging Repair</h3>
+      </div>
+      <div class="detail-grid">
+        <div class="detail-block">
+          <b>What's Included</b>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Port cleaning &amp; connector inspection</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Charging IC diagnosis</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Port or flex cable replacement, if needed</li>
+          </ul>
+        </div>
+        <div class="detail-block">
+          <b>Estimated Time</b>
+          <p>Simple port cleaning takes under 30 minutes; component-level charging repairs may take longer.</p>
+        </div>
+        <div class="detail-block">
+          <b>Important Notes</b>
+          <p>We test with the cable and adapter you normally use, since some faults are cable-specific.</p>
+        </div>
+      </div>
+      <div class="detail-foot">
+      </div>
+    </div>
+
+    <!-- Motherboard Repair -->
+    <div class="detail-card reveal" id="detail-motherboard">
+      <div class="detail-head">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg></div>
+        <h3>Motherboard Repair</h3>
+      </div>
+      <div class="detail-grid">
+        <div class="detail-block">
+          <b>What's Included</b>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Chip-level fault tracing</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Micro-soldering &amp; component replacement</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Liquid-damage cleaning &amp; corrosion removal</li>
+          </ul>
+        </div>
+        <div class="detail-block">
+          <b>Estimated Time</b>
+          <p>Usually 1–3 days, since board-level faults need careful diagnosis and testing.</p>
+        </div>
+        <div class="detail-block">
+          <b>Important Notes</b>
+          <p>Some liquid-damage or short-circuit cases may not be recoverable — we'll always confirm feasibility before charging.</p>
+        </div>
+      </div>
+      <div class="detail-foot">
+       
+      </div>
+    </div>
+
+    <!-- Software Services -->
+    <div class="detail-card reveal" id="detail-software">
+      <div class="detail-head">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <h3>Software Services</h3>
+      </div>
+      <div class="detail-grid">
+        <div class="detail-block">
+          <b>What's Included</b>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>OS reinstall, updates &amp; boot-loop fixes</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Virus &amp; malware cleanup</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Data backup before any software work</li>
+          </ul>
+        </div>
+        <div class="detail-block">
+          <b>Estimated Time</b>
+          <p>Most software fixes are completed the same day, within 1–3 hours.</p>
+        </div>
+        <div class="detail-block">
+          <b>Important Notes</b>
+          <p>We always recommend backing up personal data beforehand; we can help with this on request.</p>
+        </div>
+      </div>
+      <div class="detail-foot">
+       
+      </div>
+    </div>
+  </div>
+      <div class="detail-note reveal" style="max-width:900px;margin:0 auto 32px;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      <span>Warranty is available on most repairs and replacement parts. The warranty period depends on the type of repair or part used. For example, some display replacements may include up to a 3-month warranty, while other repairs may have different warranty periods. We'll always explain the applicable warranty before starting the repair.</span>
+    </div>
+</section>
+
+<!-- =====================================================================
+     DOORSTEP SERVICE
+===================================================================== -->
+<section class="section">
+  <div class="container band reveal">
+    <div class="band-media" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v9a1 1 0 0 0 1 1h3v-6h6v6h3a1 1 0 0 0 1-1v-9"/></svg>
+    </div>
+    <div class="band-copy">
+      <span class="eyebrow">At Your Location</span>
+      <h2 class="section-title">Doorstep Service</h2>
+      <p class="section-sub mt-0">Selected repairs can be completed right at your home or office, so you don't have to plan around a workshop visit.</p>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Quick fixes like screen guards, battery checks and software issues are handled on the spot.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Advanced repairs that need specialised equipment, like motherboard work, are completed at our workshop for the best result.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>We'll always let you know upfront whether your repair qualifies for doorstep service.</li>
+      </ul>
+      <a href="#book" class="btn btn--primary">Book Doorstep Visit</a>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     PRE-OWNED SMARTPHONES
+===================================================================== -->
+<section class="section section--soft">
+  <div class="container band reverse reveal">
+    <div class="band-media" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v5h5"/><path d="M20 20v-5h-5"/><path d="M5.5 9A7 7 0 0 1 19 8.5M18.5 15A7 7 0 0 1 5 15.5"/></svg>
+    </div>
+    <div class="band-copy">
+      <span class="eyebrow">Buy Smart</span>
+      <h2 class="section-title">Pre-Owned Smartphones</h2>
+      <p class="section-sub mt-0">Every device we sell is quality-tested before it reaches you, with the condition explained honestly upfront.</p>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Multi-point check on battery health, screen, cameras and connectivity.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Cosmetic condition graded and shared before you decide.</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Warranty available on selected phones for added peace of mind.</li>
+      </ul>
+      <button class="btn btn--whatsapp" data-whatsapp-cta>Ask About Available Phones</button>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     ACCESSORIES
+===================================================================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Gear Up</span>
+      <h2 class="section-title">Accessories</h2>
+      <p class="section-sub">Genuine and quality-tested accessories to keep your gadgets running well.</p>
+    </div>
+    <div class="acc-grid reveal">
+      <div class="acc-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"/><line x1="10" y1="18" x2="14" y2="18"/></svg><span>Chargers</span></div>
+      <div class="acc-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8a4 4 0 0 1 4-4h1M20 16a4 4 0 0 1-4 4h-1"/><path d="M9 4l-2 2 2 2M15 20l2-2-2-2"/><line x1="4" y1="12" x2="20" y2="12"/></svg><span>Data Cables</span></div>
+      <div class="acc-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/></svg><span>Tempered Glass</span></div>
+      <div class="acc-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="3"/><circle cx="12" cy="18" r="0.5"/></svg><span>Cases</span></div>
+      <div class="acc-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14v-3a8 8 0 0 1 16 0v3"/><rect x="2" y="14" width="4" height="6" rx="2"/><rect x="18" y="14" width="4" height="6" rx="2"/></svg><span>Earphones</span></div>
+      <div class="acc-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.29c-.6.28-1 .9-1 1.71v.5"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg><span>And Other Accessories</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     PROCESS
+===================================================================== -->
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">How It Works</span>
+      <h2 class="section-title">From booking to delivery</h2>
+    </div>
+    <div class="process-grid reveal">
+      <div class="process-step">
+        <div class="step-index">1</div>
+        <div class="step-copy"><h3>Book Service</h3><p>Fill the booking form or message us on WhatsApp with your device and issue.</p></div>
+      </div>
+      <div class="process-step">
+        <div class="step-index">2</div>
+        <div class="step-copy"><h3>Device Inspection</h3><p>We diagnose the fault and share a transparent, itemised quote before any work begins.</p></div>
+      </div>
+      <div class="process-step">
+        <div class="step-index">3</div>
+        <div class="step-copy"><h3>Repair &amp; Testing</h3><p>Your device is repaired with quality parts, then tested to confirm the fix.</p></div>
+      </div>
+      <div class="process-step">
+        <div class="step-index">4</div>
+        <div class="step-copy"><h3>Pickup / Delivery</h3><p>Collect it at our workshop or have it delivered back to your doorstep.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     ABOUT / WHY CHOOSE US
+===================================================================== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Why Digital World</span>
+      <h2 class="section-title">Repairs built on trust, not guesswork</h2>
+      <p class="section-sub">We treat every device like it's our own — clear pricing, careful hands, and support that doesn't disappear after the repair.</p>
+    </div>
+    <div class="why-grid reveal">
+      <div class="why-card">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg></div>
+        <h3>Quality Parts</h3>
+        <p>We source parts that meet a consistent quality bar, not whatever is cheapest.</p>
+      </div>
+      <div class="why-card">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <h3>Transparent Pricing</h3>
+        <p>You'll know the cost before we touch your device — no hidden add-ons later.</p>
+      </div>
+      <div class="why-card">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg></div>
+        <h3>Advanced Repairs</h3>
+        <p>From a simple screen swap to chip-level motherboard work, we handle the full range.</p>
+      </div>
+      <div class="why-card">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></div>
+        <h3>Warranty</h3>
+        <p>Applicable warranty is explained clearly before the repair begins, every time.</p>
+      </div>
+      <div class="why-card">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>Customer Support</h3>
+        <p>Reach us easily on call or WhatsApp — before, during, and after the repair.</p>
+      </div>
+      <div class="why-card">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v9a1 1 0 0 0 1 1h3v-6h6v6h3a1 1 0 0 0 1-1v-9"/></svg></div>
+        <h3>Doorstep Service</h3>
+        <p>Selected repairs come to you, saving a trip for issues that don't need the workshop.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     GALLERY
+===================================================================== -->
+<section class="section section--soft" id="gallery">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Our Work</span>
+      <h2 class="section-title">Gallery</h2>
+      <p class="section-sub">A look inside the workshop. <!-- TODO: swap these placeholder images for real workshop/repair photos --></p>
+    </div>
+<div class="gallery-grid reveal">
+
+    <div class="gallery-item" data-lightbox-src="images/accessories.jpg" data-lightbox-alt="Accessories">
+        <img src="images/accessories.jpg" alt="Accessories" loading="lazy">
+        <div class="gallery-caption">Accessories</div>
+    </div>
+
+    <div class="gallery-item" data-lightbox-src="images/display-fitting.jpg" data-lightbox-alt="Display Fitting">
+        <img src="images/display-fitting.jpg" alt="Display Fitting" loading="lazy">
+        <div class="gallery-caption">Display Fitting</div>
+    </div>
+
+    <div class="gallery-item" data-lightbox-src="images/chip-level-work.jpg" data-lightbox-alt="Chip-Level Work">
+        <img src="images/chip-level-work.jpg" alt="Chip-Level Work" loading="lazy">
+        <div class="gallery-caption">Chip-Level Work</div>
+    </div>
+
+    <div class="gallery-item" data-lightbox-src="images/quality-check.jpg" data-lightbox-alt="Quality Check">
+        <img src="images/quality-check.jpg" alt="Quality Check" loading="lazy">
+        <div class="gallery-caption">Quality Check</div>
+    </div>
+
+    <div class="gallery-item" data-lightbox-src="images/battery-swap.jpg" data-lightbox-alt="Battery Swap">
+        <img src="images/battery-swap.jpg" alt="Battery Swap" loading="lazy">
+        <div class="gallery-caption">Battery Swap</div>
+    </div>
+
+    <div class="gallery-item" data-lightbox-src="images/workshop.jpg" data-lightbox-alt="Workshop">
+        <img src="images/workshop.jpg" alt="Workshop" loading="lazy">
+        <div class="gallery-caption">Workshop</div>
+    </div>
+
+    <div class="gallery-item" data-lightbox-src="images/doorstep-visit.jpg" data-lightbox-alt="Doorstep Visit">
+        <img src="images/doorstep-visit.jpg" alt="Doorstep Visit" loading="lazy">
+        <div class="gallery-caption">Doorstep Visit</div>
+    </div>
+
+    <div class="gallery-item" data-lightbox-src="images/pre-owned-stock.jpg" data-lightbox-alt="Pre-Owned Stock">
+        <img src="images/pre-owned-stock.jpg" alt="Pre-Owned Stock" loading="lazy">
+        <div class="gallery-caption">Pre-Owned Stock</div>
+    </div>
+
+</div>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close image">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<!-- =====================================================================
+     REVIEWS
+===================================================================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Customer Reviews</span>
+      <h2 class="section-title">What people are saying</h2>
+    </div>
+    <div class="reviews-track reveal">
+      <div class="review-card">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+        </div>
+        <p>My iPhone's screen was completely shattered and they replaced it in under an hour. Pricing was explained clearly before they started.</p>
+        <div class="review-who">
+          <div class="review-avatar">R</div>
+          <div><b>Rohit Kumar</b><span>Ranchi</span></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+        </div>
+        <p>Booked a doorstep visit for a battery replacement — the technician came on time and finished right at my home. Very convenient.</p>
+        <div class="review-who">
+          <div class="review-avatar">P</div>
+          <div><b>Priya Sinha</b><span>Ranchi</span></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+        </div>
+        <p>My phone had liquid damage and two other shops said it couldn't be fixed. Digital World's chip-level repair brought it back to life.</p>
+        <div class="review-who">
+          <div class="review-avatar">A</div>
+          <div><b>Amit Verma</b><span>Ranchi</span></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+        </div>
+        <p>Bought a pre-owned Galaxy phone from them — condition was exactly as described, and it came with a warranty.</p>
+        <div class="review-who">
+          <div class="review-avatar">S</div>
+          <div><b>Sneha Oraon</b><span>Ranchi</span></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.5 17 14.5 18.5 22 12 18 5.5 22 7 14.5 2 9.5 9 9"/></svg>
+        </div>
+        <p>Booking through WhatsApp was so easy — sent my details and got a quote back within minutes.</p>
+        <div class="review-who">
+          <div class="review-avatar">D</div>
+          <div><b>Deepak Mahato</b><span>Ranchi</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     FAQ
+===================================================================== -->
+<section class="section section--soft" id="faq">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Questions</span>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How long does a repair take?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-a"><p>Most common repairs, like display or battery replacement, are completed within 30–90 minutes. More complex issues, such as motherboard repair, may take 1–3 days.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Can repairs be done at my location?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-a"><p>Selected repairs can be completed at your location through our doorstep service. Advanced repairs that need specialised equipment are completed at our workshop for the best result.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Is there a warranty?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-a"><p>Warranty is available on most repairs and replacement parts. The warranty period depends on the type of repair or part used. For example, some display replacements may include up to a 3-month warranty, while other repairs may have different warranty periods. We'll always explain the applicable warranty before starting the repair.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you repair tablets &amp; laptops?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-a"><p>Yes — alongside smartphones, we repair tablets, laptops, smartwatches and several other gadget categories. Select your device type on the booking form and we'll take it from there.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How do I book a repair?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-a"><p>Use the Book Service form below — it takes under a minute and sends your details straight to our WhatsApp. You can also message us on WhatsApp directly.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     BOOK SERVICE FORM
+===================================================================== -->
+<section class="section" id="book">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Book Service</span>
+      <h2 class="section-title">Tell us about your device</h2>
+      <p class="section-sub">Fill this in and we'll open WhatsApp with everything filled in — just hit send.</p>
+    </div>
+
+    <form class="book-wrap reveal" id="bookingForm" novalidate>
+      <div class="form-grid">
+
+        <div class="field">
+          <label for="fullName">Full Name <span class="req">*</span></label>
+          <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="phoneNumber">Phone Number <span class="req">*</span></label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="10-digit mobile number" required>
+          </div>
+          <div class="field">
+            <label for="emailField">Email <span class="hint">(optional)</span></label>
+            <input type="email" id="emailField" name="emailField" placeholder="you@example.com">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="deviceCategory">Device Category <span class="req">*</span></label>
+          <select id="deviceCategory" required>
+            <option value="" disabled selected>Select device category</option>
+            <option>Smartphone</option>
+            <option>Tablet</option>
+            <option>Laptop</option>
+            <option>Desktop</option>
+            <option>Smartwatch</option>
+            <option>Feature Phone</option>
+            <option>Gaming Console</option>
+            <option>Printer</option>
+            <option>Television</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="field" id="otherDeviceWrap" style="display:none;">
+          <label for="otherDeviceInput">Specify Device</label>
+          <input type="text" id="otherDeviceInput" placeholder="e.g. Bluetooth speaker">
+        </div>
+
+        <div class="field">
+          <label>Brand <span class="req">*</span></label>
+          <div class="search-select" id="brandSelect"></div>
+          <small class="hint">Type to search, or pick your device category first.</small>
+        </div>
+
+        <div class="field" id="otherBrandWrap" style="display:none;">
+          <label for="otherBrandInput">Specify Brand</label>
+          <input type="text" id="otherBrandInput" placeholder="e.g. Gionee">
+        </div>
+
+        <div class="field">
+          <label>Model</label>
+          <div class="search-select" id="modelSelect"></div>
+        </div>
+
+        <div class="field" id="otherModelWrap" style="display:none;">
+          <label for="otherModelInput">Specify Model</label>
+          <input type="text" id="otherModelInput" placeholder="Type the exact model">
+        </div>
+
+        <div class="field" id="modelFreeTextWrap" style="display:none;">
+          <label for="modelFreeTextInput">Model</label>
+          <input type="text" id="modelFreeTextInput" placeholder="Type the model name">
+        </div>
+
+        <div class="field">
+          <label for="problemDesc">Problem Description <span class="req">*</span></label>
+          <textarea id="problemDesc" placeholder="Describe the issue — e.g. screen cracked after a drop, not charging, phone restarts randomly..." required></textarea>
+        </div>
+
+        <div class="field">
+          <label for="pickupAddress">Pickup Address <span class="req">*</span></label>
+          <textarea id="pickupAddress" placeholder="House / flat, street, locality, landmark" required></textarea>
+        </div>
+<div class="field">
+
+
+        <div class="field" </label>
+                  <label>Paste your doorstep Google Maps link</label>
+<div class="map-actions">
+
+    <input
+        type="text"
+        id="googleMapsLink"
+        placeholder="Open Google Maps → Share → Copy Link → Paste here."
+        autocomplete="off"
+    >
+
+    <button
+        type="button"
+        class="btn btn--ghost"
+        onclick="window.open('https://maps.google.com','_blank')">
+
+        <svg viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round">
+
+            <path d="M12 22s8-7.2 8-13a8 8 0 1 0-16 0c0 5.8 8 13 8 13z"/>
+            <circle cx="12" cy="9" r="2.5"/>
+
+        </svg>
+
+        Open Google Maps
+
+    </button>
+
+</div>
+                
+          <label>Pin Your Exact Location</label>
+          <div class="map-box">
+            <div class="map-actions">
+              <div class="search-select" id="addressSearch" style="flex:1 1 220px;">
+                <input type="text" id="addressSearchInput" placeholder="Search your address, locality or landmark" autocomplete="off">
+                <div class="ss-panel" id="addressSearchPanel"></div>
+              </div>
+              <button type="button" class="btn btn--ghost" id="useLocationBtn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                Use Current Location
+              </button>
+            </div>
+            <div class="map-live" id="mapLive">
+              <div id="leafletMap"></div>
+            </div>
+            <div class="map-live-foot">
+              <span class="map-coords" id="mapCoords">Search your address, use current location, or tap/drag the pin below to set it exactly.</span>
+            </div>
+            <small class="hint" id="locationMsg" style="display:none;"></small>
+          </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="prefDate">Preferred Date</label>
+            <input type="date" id="prefDate">
+          </div>
+          <div class="field">
+            <label for="prefTime">Preferred Time</label>
+            <input type="time" id="prefTime">
+          </div>
+        </div>
+
+        <div class="form-msg" id="formMsg"></div>
+
+        <button type="submit" class="btn btn--whatsapp btn--block">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.71.45 3.38 1.3 4.85L2 22l5.36-1.4a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.06c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.8-.11-.42-.13-.95-.3-1.64-.6-2.9-1.25-4.79-4.17-4.94-4.37-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.26-.28.57-.35.76-.35h.55c.18 0 .42-.07.65.5.24.58.82 2 .9 2.14.07.14.12.31.02.5-.1.2-.15.31-.29.48-.14.17-.3.37-.43.5-.14.14-.29.29-.13.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.17-.2.71-.83.9-1.11.19-.28.38-.23.63-.14.26.1 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.68-.17 1.36Z"/></svg>
+          Send via WhatsApp
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- =====================================================================
+     CONTACT
+===================================================================== -->
+<section class="section section--soft" id="contact">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Get In Touch</span>
+      <h2 class="section-title">Contact Us</h2>
+    </div>
+
+    <div class="contact-grid reveal">
+      <div>
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg></div>
+            <div><b>Phone</b><a href="tel:+919006060974">+91 90060 60974</a></div>
+          </div>
+          <div class="contact-card">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.71.45 3.38 1.3 4.85L2 22l5.36-1.4a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Z"/></svg></div>
+            <div><b>WhatsApp</b><a href="#" data-whatsapp-cta>Chat with us</a></div>
+          </div>
+          <div class="contact-card">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+            <div><b>Email</b><a href="mailto:hello@digitalworld.example">hello@digitalworld.example</a></div>
+          </div>
+          <div class="contact-card">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
+            <div><b>Address</b><span>Opposite Medanta Hospital, Irba, Ranchi, Jharkhand</span></div>
+          </div>
+        </div>
+        <div class="contact-card" style="margin-top:14px;">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg></div>
+          <div><b>Working Hours</b><span>Open Every Day, 9:00 AM – 10:00 PM</span></div>
+        </div>
+      </div>
+
+      <div class="map-embed">
+        <!-- TODO: replace the query text below with the exact shop address -->
+        <iframe src="https://www.google.com/maps?q=Opposite+Medanta+Hospital,+Irba,+Ranchi,+Jharkhand&output=embed" title="Digital World location on Google Maps" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- =====================================================================
+     FOOTER
+===================================================================== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+        </span>
+        Digital World
+      </a>
+      <p>Smartphone and gadget repair in Ranchi, Jharkhand — quality parts, transparent pricing, and a team that explains every step.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#book">Book Service</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#detail-display">Display Repair</a></li>
+        <li><a href="#detail-battery">Battery Replacement</a></li>
+        <li><a href="#detail-charging">Charging Repair</a></li>
+        <li><a href="#detail-motherboard">Motherboard Repair</a></li>
+        <li><a href="#detail-software">Software Services</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+919006060974">+91 90060 60974</a></li>
+        <li><a href="mailto:hello@digitalworld.example">hello@digitalworld.example</a></li>
+        <li><a href="#contact">Opposite Medanta Hospital, Irba, Ranchi, Jharkhand</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="currentYear"></span> Digital World. All rights reserved.</span>
+    <span>Built for fast, honest gadget repairs in Ranchi.</span>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp button -->
+<button class="fab-whatsapp" data-whatsapp-cta aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.71.45 3.38 1.3 4.85L2 22l5.36-1.4a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.06c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.8-.11-.42-.13-.95-.3-1.64-.6-2.9-1.25-4.79-4.17-4.94-4.37-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.26-.28.57-.35.76-.35h.55c.18 0 .42-.07.65.5.24.58.82 2 .9 2.14.07.14.12.31.02.5-.1.2-.15.31-.29.48-.14.17-.3.37-.43.5-.14.14-.29.29-.13.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.17-.2.71-.83.9-1.11.19-.28.38-.23.63-.14.26.1 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.68-.17 1.36Z"/></svg>
+</button>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="script.js"></script>
+</body>
+</html>
